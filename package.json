@@ -1,0 +1,5 @@
+{
+  "name": "renovate-npmrc-sanitization-repro",
+  "private": true,
+  "packageManager": "pnpm@11.13.0"
+}
