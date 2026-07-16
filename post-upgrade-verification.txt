@@ -1,0 +1,1 @@
+Repository .npmrc was restored before the post-upgrade task.
