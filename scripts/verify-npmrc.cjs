@@ -3,7 +3,7 @@ const { readFileSync, writeFileSync } = require('node:fs');
 const npmrcPath = 'packages/a/.npmrc';
 const expected = [
   'package-lock = false',
-  '//registry.npmjs.org/:_authToken = ${RENOVATE_REPRO_TOKEN}',
+  '//registry.npmjs.org/:_authToken = "${RENOVATE_REPRO_TOKEN}"',
   'strict-ssl = true',
   '',
 ].join('\n');
